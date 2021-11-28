@@ -73,8 +73,9 @@
 		          <div class="col-md-12 nav-link-wrap mb-5">
 		            <div class="nav ftco-animate nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
 		              <a class="nav-link active" id="v-pills-whatwedo-tab" data-toggle="pill" href="#v-pills-whatwedo" role="tab" aria-controls="v-pills-whatwedo" aria-selected="true">Missão</a>
-
 		              <a class="nav-link" id="v-pills-mission-tab" data-toggle="pill" href="#v-pills-mission" role="tab" aria-controls="v-pills-mission" aria-selected="false">Valores</a>
+		              <a class="nav-link" id="v-pills-mission-tab1" data-toggle="pill" href="#v-pills-mission1" role="tab" aria-controls="v-pills-mission1" aria-selected="false">Público Alvo</a>
+		              <a class="nav-link" id="v-pills-mission-tab2" data-toggle="pill" href="#v-pills-mission2" role="tab" aria-controls="v-pills-mission2" aria-selected="false">Parcerias</a>
 		            </div>
 		          </div>
 		          <div class="col-md-12 d-flex align-items-center">
@@ -83,6 +84,7 @@
 
 		              <div class="tab-pane fade show active" id="v-pills-whatwedo" role="tabpanel" aria-labelledby="v-pills-whatwedo-tab">
 		              	<div>
+                      <h5>A nossa missão:</h5>
 			              	<p>A nossa equipa é constituída por fisioterapeutas empenhados e qualificados em diversas áreas da estética, que têm a missão de promover o bem-estar e a saúde, prevenir o cancro cutâneo, recuperar o sistema tegumentar, aumentar a autoestima e por fim como chave dos nossos tratamentos melhorar o fotoenvelhecimento.</p>
                       <p>Na DermatoClinic vai encontrar interesse pelo seu caso clínico, empatia e simpatia. Os nossos serviços distinguem-se pelo elevado nível de competência e especialização e a clinica pela referência dos melhores resultados, são estes valores que nos permite criar uma relação de confiança com os nossos utentes, tornando-nos a sua primeira escolha e a clinica nº1 do mercado da estética.</p>
 				            </div>
@@ -90,6 +92,7 @@
 
 		              <div class="tab-pane fade" id="v-pills-mission" role="tabpanel" aria-labelledby="v-pills-mission-tab">
 		                <div>
+                      <h6>Na DermatoClinic vai encontrar os seguintes valores:</h6>
                       <ul>
                         <li>Confiança</li>
                         <li>Respeito</li>
@@ -105,6 +108,41 @@
                       </ul>
 				            </div>
 		              </div>
+
+                  <div class="tab-pane fade" id="v-pills-mission1" role="tabpanel" aria-labelledby="v-pills-mission-tab1">
+		                <div>
+                      <h6>Na DermatoClinic nos tratamos:</h6>
+                      <ul>
+                        <li>Gordura Localizada</li>
+                        <li>Rugas</li>
+                        <li>Queimaduras</li>
+                        <li>Cicatrizes</li>
+                        <li>Celulite</li>
+                        <li>Flacidez</li>
+                        <li>Estrias</li>
+                        <li>Rosácea</li>
+                        <li>Acne</li>
+                        <li>Dermatites</li>
+                        <li>Atendimento Pré e Pós Operatório</li>
+                        <li>Discromias (Melasma, Vitiligo)</li>
+                      </ul>
+				            </div>
+		              </div>
+
+                  <div class="tab-pane fade" id="v-pills-mission2" role="tabpanel" aria-labelledby="v-pills-mission-tab2">
+		                <div>
+                      <h6>Parceiros da DermatoClinic:</h6>
+                      <ul>
+                        <li>Primavera</li>
+                        <li>Hotel Meliá</li>
+                        <li>Hotel Golden Tulip</li>
+                        <li>Hotel Vila Galé</li>
+                        <li>Fujitso</li>
+                        <li>Osteopata Pedro Fernandes</li>
+                      </ul>
+				            </div>
+		              </div>
+
 		            </div>
 		          </div>
 		        </div>
@@ -134,7 +172,7 @@
 		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
 		            <div class="block-18">
 		              <div class="text">
-		                <strong class="number" data-number="4500">0</strong>
+		                <strong class="number" data-number="9">0</strong>
 		                <span>Profissionais qualificados</span>
 		              </div>
 		            </div>
@@ -181,11 +219,12 @@
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
   <!-- Modal -->
-  <div class="modal fade" id="modalRequest" tabindex="-1" role="dialog" aria-labelledby="modalRequestLabel" aria-hidden="true">
+  <div class="modal fade" id="modalRequest" tabindex="-1" role="dialog" aria-labelledby="modalRequestLabel"
+    aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="modalRequestLabel">Make an Appointment</h5>
+          <h5 class="modal-title" id="modalRequestLabel">Fazer Marcação</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -194,7 +233,7 @@
           <form action="#">
             <div class="form-group">
               <!-- <label for="appointment_name" class="text-black">Full Name</label> -->
-              <input type="text" class="form-control" id="appointment_name" placeholder="Full Name">
+              <input type="text" class="form-control" id="appointment_name" placeholder="Nome">
             </div>
             <div class="form-group">
               <!-- <label for="appointment_email" class="text-black">Email</label> -->
@@ -204,28 +243,29 @@
               <div class="col-md-6">
                 <div class="form-group">
                   <!-- <label for="appointment_date" class="text-black">Date</label> -->
-                  <input type="text" class="form-control appointment_date" placeholder="Date">
-                </div>    
+                  <input type="text" class="form-control appointment_date" placeholder="Data">
+                </div>
               </div>
               <div class="col-md-6">
                 <div class="form-group">
                   <!-- <label for="appointment_time" class="text-black">Time</label> -->
-                  <input type="text" class="form-control appointment_time" placeholder="Time">
+                  <input type="text" class="form-control appointment_time" placeholder="Hora">
                 </div>
               </div>
             </div>
-            
+
 
             <div class="form-group">
               <!-- <label for="appointment_message" class="text-black">Message</label> -->
-              <textarea name="" id="appointment_message" class="form-control" cols="30" rows="10" placeholder="Message"></textarea>
+              <textarea name="" id="appointment_message" class="form-control" cols="30" rows="10"
+                placeholder="Mensagem"></textarea>
             </div>
             <div class="form-group">
-              <input type="submit" value="Make an Appointment" class="btn btn-primary">
+              <input type="submit" value="Fazer Marcação" class="btn btn-primary">
             </div>
           </form>
         </div>
-        
+
       </div>
     </div>
   </div>
