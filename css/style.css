@@ -7756,7 +7756,7 @@ h1, h2, h3, h4, h5,
       font-size: 14px;
       padding-right: 20px !important; }
       .ftco-intro .appointment-form .form-group input option, .ftco-intro .appointment-form .form-group select option {
-        color: #fff; }
+        color: #000; }
       .ftco-intro .appointment-form .form-group input::-webkit-input-placeholder, .ftco-intro .appointment-form .form-group select::-webkit-input-placeholder {
         /* Chrome/Opera/Safari */
         color: #fff !important; }
@@ -8185,7 +8185,7 @@ h1, h2, h3, h4, h5,
 
 .form-control {
   height: 52px !important;
-  background: #fff !important;
+  background: #BBECFC !important;
   color: #000 !important;
   font-size: 16px;
   border-radius: 0px;
